@@ -1,7 +1,5 @@
-import datetime
-import random
 from tkinter import *
-from tkinter import filedialog
+
 
 def about():
     status_label.configure(text = """
