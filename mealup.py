@@ -1,6 +1,5 @@
 from tkinter import *
 
-
 def about():
     status_label.configure(text = """
 A Simple Resturant Billing Application
@@ -61,7 +60,7 @@ Hope to see you again!
     status_label2.configure(text = gtot)
 
 win = Tk()
-win.geometry("900x700")
+win.geometry("1280x720")
 win.title("Meal Up Resturant")
 
 burvar1 = StringVar()
