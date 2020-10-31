@@ -5,10 +5,8 @@ def about():
 A Simple Resturant Billing Application
 
 Made By
-
 Aman Patel
 amanpatel599@gmail.com
-
 """)
 
 def reset():
@@ -45,9 +43,9 @@ Your Bill is Generated
 Service Tax: 3%
 GST: 7%
 CGST: 5%
-
 Hope to see you again!
 """)
+    
     srvtax = float(tot*3/100)
     gst = float(tot*7/100)
     cgst = float(tot*5/100)
